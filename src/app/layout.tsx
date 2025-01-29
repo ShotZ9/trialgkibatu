@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main className="">{children}</main>
         <ScrollToTop />
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
