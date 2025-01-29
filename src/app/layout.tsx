@@ -1,5 +1,8 @@
 import "./globals.css";
-import Navbar from "../components/Navbar";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import CustomCursor from "@/components/CustomCursor";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata = {
   title: "GKI Batu",
@@ -13,9 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body className="bg-gray-100">
+      <body className="relative">
+        <CustomCursor />
         <Navbar />
         <main className="">{children}</main>
+        <ScrollToTop />
+        <Footer />
       </body>
     </html>
   );

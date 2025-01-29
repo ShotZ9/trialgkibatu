@@ -23,3 +23,26 @@ body {
 .bg-fixed {
   background-attachment: fixed;
 }
+
+.referensi {
+  color: rgba(128, 128, 128, 0.9);
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out;
+}
