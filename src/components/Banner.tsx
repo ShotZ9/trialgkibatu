@@ -27,7 +27,7 @@ const Banner = ({ title }: BannerProps) => {
     }, []);
 
     return (
-        <div className="relative w-full h-[300px] overflow-hidden">
+        <div className="relative w-full h-[300px] md:h-[350px] lg:h-[450px] overflow-hidden">
             {/* Swiper Carousel */}
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
@@ -42,7 +42,7 @@ const Banner = ({ title }: BannerProps) => {
                     return (
                         <SwiperSlide key={index}>
                             <div
-                                className="relative w-full h-[300px] bg-cover bg-center bg-gray-900"
+                                className="relative w-full h-[300px] md:h-[350px] lg:h-[450px] bg-cover bg-center bg-gray-900"
                                 style={{
                                     backgroundImage: `url(${image})`,
                                     backgroundPositionY,
@@ -58,7 +58,7 @@ const Banner = ({ title }: BannerProps) => {
 
             {/* Overlay dan Title */}
             <div className="absolute inset-0 flex items-center justify-center">
-                <h1 className="text-4xl font-bold text-white z-[9998] animate-fadeInUp">
+                <h1 className="text-4xl font-bold text-white z-[1] animate-fadeInUp">
                     {title}
                 </h1>
             </div>

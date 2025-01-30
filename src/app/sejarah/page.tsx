@@ -21,9 +21,9 @@ const JadwalPage = () => {
 
   return (
     <div>
-      <Banner title="Jadwal Sepekan" />
+      <Banner title="Sejarah GKI Batu" />
       <div className="container mx-auto px-4 py-10">
-        <h1 className="text-3xl font-bold text-center mb-6">Jadwal Sepekan</h1>
+        <h1 className="text-3xl font-bold text-center mb-6">Sejarah GKI Batu</h1>
 
         <div className="overflow-x-auto">
           <table className="w-full border-collapse shadow-lg rounded-lg overflow-hidden">

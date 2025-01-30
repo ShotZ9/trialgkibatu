@@ -1,11 +1,17 @@
+import Hero from "@/components/Hero";
 import Banner from "@/components/Banner";
+import Gallery from "@/components/Gallery";
+import ParallaxSection from "@/components/ParallaxSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div>
-      <Banner title="Selamat Datang"/>
-      <h1 className="text-2xl font-bold">Selamat Datang di GKI Batu</h1>
-      <p className="mt-4">Website resmi gereja GKI Batu.</p>
-    </div>
+    <main className="bg-gray-100">
+      <Banner title="Beranda"/>
+      <Hero />      
+      <Gallery />
+      <ParallaxSection />
+      <Footer />
+    </main>
   );
 }

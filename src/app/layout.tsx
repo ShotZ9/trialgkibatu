@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
 import ScrollToTop from "@/components/ScrollToTop";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export const metadata = {
   title: "GKI Batu",
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Navbar />
         <main className="">{children}</main>
         <ScrollToTop />
+        {/* <ThemeToggle /> */}
         <Footer />
         <Analytics />
       </body>

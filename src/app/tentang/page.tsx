@@ -3,9 +3,9 @@ import Banner from "@/components/Banner";
 export default function Tentang() {
   return (
     <div>
-      <Banner title="Tentang Kami"/>
+      <Banner title="Tentang GKI Batu" />
       <main className="container mx-auto p-4">
-        <h1 className="text-2xl font-bold">Tentang Kami</h1>
+        <h1 className="text-2xl font-bold">Tentang GKI Batu</h1>
         <p>GKI Batu bernaung di bawah klasis Madiun dan sinode GKI Sinode Jawa Timur.</p>
 
         <h2 className="text-xl font-bold mt-4">Visi GKI Batu</h2>
@@ -25,15 +25,17 @@ export default function Tentang() {
 
         <section className="mt-2">
           <h2 className="text-xl font-bold">I. Pengantar</h2>
-          <p className="mt-2">
-            Sebagai kelanjutan dan wujud kesatuan dari Gereja Kristen Indonesia Jawa Timur, Gereja Kristen Indonesia Jawa Barat, dan Gereja Kristen Indonesia Jawa Tengah, maka Gereja Kristen Indonesia (GKI) hadir di tengah-tengah dunia dalam konteks Indonesia. GKI, dalam persekutuan kasih yang akrab dan karya keselamatan Allah Bapa, Anak, dan Roh Kudus, hidup dan berkarya di tengah kekayaan dan kepelbagaian warisan sejarah, budaya, dan lingkungan alam, baik di dalam tubuhnya sendiri, maupun di tengah masyarakat Indonesia. Oleh karena itu, sejak pengikraran satu GKI pada 26 Agustus 1988, GKI ingin memiliki sebuah konfesi GKI sebagai penegasan iman yang kontekstual dan formal di hadapan Allah dan dunia, secara khusus di Indonesia.
-          </p>
-          <p className="mt-2">
-            Konfesi GKI merupakan sebuah ekspresi dari pengakuan iman yang diakui dan dihayati oleh GKI. Dalam praktiknya GKI mengakui Pengakuan Iman Rasuli, Pengakuan Iman Nicea Konstantinopel, dan Pengakuan Iman Athanasius. Ketiga Pengakuan Iman tersebut merupakan pengakuan iman yang bersumber dari Alkitab dan diterima, serta dimiliki oleh gereja secara ekumenis. Jadi, di satu sisi, dengan mengakui ketiga pengakuan iman tersebut, GKI mau mengikatkan diri pada persekutuan ekumenis dalam gereja yang universal. Di sisi lain, dengan merumuskan konfesinya, GKI mau mengikatkan diri pada persekutuan kasih, baik dalam tubuh GKI maupun dalam konteks hidup GKI di tengah kekayaan dan kepelbagaian lingkungan alam, budaya, dan agama di Indonesia.
-          </p>
-          <p className="mt-2">
-            Berakar pada ibadat yang melingkupi seluruh dimensi kehidupan kepada Allah Bapa, Anak, dan Roh Kudus, dan berangkat dari kekayaan dan kepelbagaian yang ada di dalam tubuh GKI dan di tengah konteks hidup GKI, maka GKI merumuskan konfesinya dalam terang firman Allah. GKI pada gilirannya memilih tema “Berperanserta ke dalam persekutuan kasih dan karya keselamatan Allah Bapa, Anak, dan Roh Kudus” sebagai fokus utama yang menuntun konfesinya. Dalam hal ini, GKI pun menyadari bahwa Konfesi GKI mengungkapkan secara terbatas pernyataan-pernyataan iman gereja karena pada kenyataannya masih banyak pernyataan iman gereja lainnya yang tidak tercakup dalam Konfesi GKI. Pada saat bersamaan Konfesi GKI menegaskan pernyataan-pernyataan iman gereja yang mendasar dan kontekstual. Dengan demikian, Konfesi GKI memberi ruang bagi orang percaya untuk melakukan proses berteologi lebih lanjut demi kemuliaan Allah Bapa, Anak, dan Roh Kudus.
-          </p>
+          <ol className="pl-6 mt-2">
+            <li>
+              Sebagai kelanjutan dan wujud kesatuan dari Gereja Kristen Indonesia Jawa Timur, Gereja Kristen Indonesia Jawa Barat, dan Gereja Kristen Indonesia Jawa Tengah, maka Gereja Kristen Indonesia (GKI) hadir di tengah-tengah dunia dalam konteks Indonesia. GKI, dalam persekutuan kasih yang akrab dan karya keselamatan Allah Bapa, Anak, dan Roh Kudus, hidup dan berkarya di tengah kekayaan dan kepelbagaian warisan sejarah, budaya, dan lingkungan alam, baik di dalam tubuhnya sendiri, maupun di tengah masyarakat Indonesia. Oleh karena itu, sejak pengikraran satu GKI pada 26 Agustus 1988, GKI ingin memiliki sebuah konfesi GKI sebagai penegasan iman yang kontekstual dan formal di hadapan Allah dan dunia, secara khusus di Indonesia.
+            </li>
+            <li className="mt-2">
+              Konfesi GKI merupakan sebuah ekspresi dari pengakuan iman yang diakui dan dihayati oleh GKI. Dalam praktiknya GKI mengakui Pengakuan Iman Rasuli, Pengakuan Iman Nicea Konstantinopel, dan Pengakuan Iman Athanasius. Ketiga Pengakuan Iman tersebut merupakan pengakuan iman yang bersumber dari Alkitab dan diterima, serta dimiliki oleh gereja secara ekumenis. Jadi, di satu sisi, dengan mengakui ketiga pengakuan iman tersebut, GKI mau mengikatkan diri pada persekutuan ekumenis dalam gereja yang universal. Di sisi lain, dengan merumuskan konfesinya, GKI mau mengikatkan diri pada persekutuan kasih, baik dalam tubuh GKI maupun dalam konteks hidup GKI di tengah kekayaan dan kepelbagaian lingkungan alam, budaya, dan agama di Indonesia.
+            </li>
+            <li className="mt-2">
+              Berakar pada ibadat yang melingkupi seluruh dimensi kehidupan kepada Allah Bapa, Anak, dan Roh Kudus, dan berangkat dari kekayaan dan kepelbagaian yang ada di dalam tubuh GKI dan di tengah konteks hidup GKI, maka GKI merumuskan konfesinya dalam terang firman Allah. GKI pada gilirannya memilih tema “Berperanserta ke dalam persekutuan kasih dan karya keselamatan Allah Bapa, Anak, dan Roh Kudus” sebagai fokus utama yang menuntun konfesinya. Dalam hal ini, GKI pun menyadari bahwa Konfesi GKI mengungkapkan secara terbatas pernyataan-pernyataan iman gereja karena pada kenyataannya masih banyak pernyataan iman gereja lainnya yang tidak tercakup dalam Konfesi GKI. Pada saat bersamaan Konfesi GKI menegaskan pernyataan-pernyataan iman gereja yang mendasar dan kontekstual. Dengan demikian, Konfesi GKI memberi ruang bagi orang percaya untuk melakukan proses berteologi lebih lanjut demi kemuliaan Allah Bapa, Anak, dan Roh Kudus.
+            </li>
+          </ol>
         </section>
 
         <section className="mt-4">
