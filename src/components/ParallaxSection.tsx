@@ -17,7 +17,7 @@ const ParallaxSection = () => {
         className="absolute inset-0 w-full h-full"
       >
         <Image
-          src="/images/parallax.jpg"
+          src="/images/hero.jpg"
           alt="Parallax Image"
           fill
           className="object-cover object-center brightness-75"
