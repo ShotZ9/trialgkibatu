@@ -39,3 +39,39 @@ npm install
 npm run dev
 ```
 Buka http://localhost:3000 untuk melihat proyek di browser.
+
+---
+
+## 📂 Struktur Folder
+```sh
+/public          # Asset gambar, logo
+/src/components  # Komponen UI (Navbar, Hero, Gallery, Footer, dll.)
+/src/app         # Halaman utama (Home.tsx, About.tsx, dsb.)
+```
+
+---
+
+## 🚀 Deployment
+Website ini sudah dideploy di Vercel. Untuk deployment manual:
+```sh
+vercel
+```
+
+---
+
+## 💡 Kontribusi
+1. Fork repository ini
+2. Buat branch baru (git checkout -b feature-name)
+3. Commit perubahan (git commit -m "Add feature")
+4. Push ke branch (git push origin feature-name)
+5. Buat Pull Request
+
+---
+
+## 📞 Kontak & Support
+📩 Email: yamadeo9@gmail.com
+🌐 Website: trialgkibatu.vercel.app
+
+---
+
+## 💙 Dibuat dengan kasih untuk GKI Batu ✝️
