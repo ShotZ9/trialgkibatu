@@ -27,7 +27,7 @@ Website ini dibuat untuk **GKI Batu** dengan desain simpel namun modern, menggun
 
 ### 1️⃣ Clone Repository  
 ```sh
-git clone https://github.com/username/repository.git
+git clone [https://github.com/ShotZ9/trialgkibatu.git]
 cd repository
 ```
 ### 2️⃣ Install Dependencies
@@ -69,9 +69,8 @@ vercel
 ---
 
 ## 📞 Kontak & Support
-📩 Email: yamadeo9@gmail.com
-🌐 Website: trialgkibatu.vercel.app
-
+### 📩 Email: yamadeo9@gmail.com
+### 🌐 Website: trialgkibatu.vercel.app
 ---
 
 ## 💙 Dibuat dengan kasih untuk GKI Batu ✝️
