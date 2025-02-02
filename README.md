@@ -30,3 +30,12 @@ Website ini dibuat untuk **GKI Batu** dengan desain simpel namun modern, menggun
 git clone https://github.com/username/repository.git
 cd repository
 ```
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+### 3️⃣ Jalankan di Localhost
+```sh
+npm run dev
+```
+Buka http://localhost:3000 untuk melihat proyek di browser.
