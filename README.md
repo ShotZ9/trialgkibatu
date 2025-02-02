@@ -27,7 +27,7 @@ Website ini dibuat untuk **GKI Batu** dengan desain simpel namun modern, menggun
 
 ### 1️⃣ Clone Repository  
 ```sh
-git clone [https://github.com/ShotZ9/trialgkibatu.git]
+git clone https://github.com/ShotZ9/trialgkibatu.git
 cd repository
 ```
 ### 2️⃣ Install Dependencies
