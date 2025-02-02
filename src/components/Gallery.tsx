@@ -11,10 +11,14 @@ const images = [
 
 const Gallery = () => {
   return (
-    <section className="container mx-auto px-6 py-16">
+    <section id="gallery" className="container mx-auto px-6 py-16">
+      <h2 className="text-4xl font-semibold text-center mb-10">Galeri</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((src, index) => (
-          <div key={index} className="overflow-hidden rounded-lg shadow-md">
+          <div
+            key={index}
+            className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+          >
             <Image
               src={src}
               alt={`Gallery Image ${index + 1}`}

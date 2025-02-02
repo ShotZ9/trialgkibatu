@@ -19,11 +19,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-gray-900 text-white w-full top-0 left-0 shadow-md">
+    <nav className="fixed top-0 w-full z-50 bg-gray-900 text-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <Image src="/images/logogki.png" alt="Logo GKI" width={40} height={40} />
+          <Image src="/images/gkiwarna.png" alt="Logo GKI" width={40} height={40} />
           <span className="text-xl font-bold">GKI Batu</span>
         </div>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 w-full bg-gray-900 shadow-md z-[9998]">
+        <div className="md:hidden absolute top-16 left-0 w-full bg-gray-900 shadow-md z-50">
           <ul className="flex flex-col text-center py-4">
             {navItems.map((item) => (
               <li key={item.path} className="py-2">

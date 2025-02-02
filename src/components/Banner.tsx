@@ -13,8 +13,8 @@ interface BannerProps {
 
 const images = [
     "/images/banner1.jpg",
-    "/images/banner2.jpg",
-    "/images/banner3.jpg",
+    "/images/gallery2.jpg",
+    "/images/gallery3.jpg",
 ];
 
 const Banner = ({ title }: BannerProps) => {
