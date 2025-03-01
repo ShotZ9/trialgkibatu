@@ -36,7 +36,7 @@ const Hero = () => {
           Menjadi terang bagi dunia, hidup dalam kasih Tuhan.
         </motion.p>
 
-        {/* Button */}
+        {/* Button
         <motion.a
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ const Hero = () => {
           className="mt-6 px-6 py-3 bg-white text-gray-900 font-semibold text-lg rounded-full shadow-lg hover:bg-gray-200 transition-all"
         >
           Explore
-        </motion.a>
+        </motion.a> */}
       </div>
     </section>
   );
